@@ -8,6 +8,8 @@ header {
     border: 1px solid #979797;
     background: #D8D8D8;
     background-image: url('./1-images/headphones_hero_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav {
     width: 80%;
