@@ -1,6 +1,8 @@
 body {
     padding: 0px;
     margin: 0px;
+    width: 100%;
+    
 }
 header {
     margin: 0 auto;
@@ -231,12 +233,20 @@ nav div ul li:hover{
     /* line-height: 10px; 185.714% */
 }
 
-@media screen and (min-width: 1000px) {
-
+@media screen and (max-width: 700px) {
+    .section-1 {
+        height: auto;
+    }
+    .section-1 .div-1 {
+         width: 90%;
+    }
+    .div-do-item {
+        height: auto;
+    }
     .section-2 {
         height: auto;
         margin: 0%;
-        padding: 0%;
+        padding: 5%;
         color: #FFF;
         text-align: center;
         font-family: Source Sans Pro;
@@ -252,5 +262,12 @@ nav div ul li:hover{
     .div-our  {
         height: auto;
         flex-wrap: wrap;
+    }
+    header {
+        height: auto;
+    }
+    .header-content {
+        width: 90%;
+        height: auto;
     }
 }
